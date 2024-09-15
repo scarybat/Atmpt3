@@ -15,6 +15,15 @@
             background-repeat: no-repeat;
             height: 100vh;
         }
+
+        /* Make the background more responsive */
+        @media (max-width: 768px) {
+            body {
+                background-size: contain; /* Adjust background image to contain within the viewport */
+                background-position: center;
+                height: auto;
+            }
+        }
     </style>
 </head>
 <body>
